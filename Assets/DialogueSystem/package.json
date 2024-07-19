@@ -1,0 +1,31 @@
+{
+  "name": "com.indiegabo.dialogue-system",
+  "version": "0.0.1",
+  "displayName": "LDtk Level Manager",
+  "description": "A dialogue system for Unity.",
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://indiegabo.github.io/ldtk-vania",
+  "changelogUrl": "https://indiegabo.github.io/dialogue-system/documentation/CHANGELOG.html",
+  "licensesUrl": "https://github.com/indiegabo/dialogue-system/blob/main/LICENSE.md",
+  "author": {
+    "name": "Indiegabo",
+    "email": "indiegabo@gmail.com",
+    "url": "http://github.com/indiegabo"
+  },
+  "keywords": [
+    "dialogue",
+    "dialogues",
+    "conversation",
+    "editor",
+    "indiegabo"
+  ],
+  "samples": [],
+  "scripts": {
+    "release": "npm run release-it",
+    "pre-release": "npx auto-changelog -p && mv -f CHANGELOG.md ../../docfx_project/documentation/CHANGELOG.md && docfx ../../docfx_project/docfx.json && echo Go create Unity .meta and the .unitypackage before releasing",
+    "serve-docs": "docfx ../../docfx_project/docfx.json --serve",
+    "build-docs": "docfx ../../docfx_project/docfx.json"
+  },
+  "dependencies": {}
+}
