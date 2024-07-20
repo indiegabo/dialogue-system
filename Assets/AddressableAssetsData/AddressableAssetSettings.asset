@@ -49,6 +49,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 95a1da0824f6cb1448e5ac6e6925d238, type: 2}
   - {fileID: 11400000, guid: a37e504dbb683a14fb0f495a5c44a84a, type: 2}
   - {fileID: 11400000, guid: 6e40047e2cc6cae4eb50029edc0e41e3, type: 2}
+  - {fileID: 11400000, guid: 6ccf03c96f949eb4ab0805446ba14f5e, type: 2}
+  - {fileID: 11400000, guid: ca05ad5c5846dc24488ce8d1b8638ac5, type: 2}
+  - {fileID: 11400000, guid: a8e68f9641c58594daff29b2a7109d0c, type: 2}
+  - {fileID: 11400000, guid: 7a4c8f1bda678084ea4b2a35c99c0508, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -97,6 +101,9 @@ MonoBehaviour:
     - LDtkLevelManagerLevel
     - LM_Level
     - LM_Scene
+    - Locale
+    - Locale-en
+    - Locale-pt-BR
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: c86b2b71c0fb49a4099b56a1ee2a0d14, type: 2}

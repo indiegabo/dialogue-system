@@ -1,11 +1,10 @@
-using System;
 using UnityEngine;
 
-namespace LDtkLevelManager
+namespace IndieGabo.DialogueSystem
 {
         public static class Logger
         {
-                private static string Prefix => $"<color=#FFFFFF>[LDtkLevelManager]</color>";
+                private static string Prefix => $"<color=#FFFFFF>[DialogueSystem]</color>";
 
                 /// <summary>
                 /// Logs a message.
